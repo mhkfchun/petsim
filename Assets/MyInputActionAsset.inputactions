@@ -1,0 +1,34 @@
+{
+    "name": "MyInputActionAsset",
+    "maps": [
+        {
+            "name": "MyActionMap",
+            "id": "1eba9e67-19e9-40eb-97a9-25411ff85b99",
+            "actions": [
+                {
+                    "name": "MyActionPress",
+                    "type": "Button",
+                    "id": "92e4a136-80aa-4723-a45c-a55c92e6f833",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "11eb8628-3bdc-44eb-84ff-9428cb18b2b3",
+                    "path": "<OculusTouchController>/start",
+                    "interactions": "Press",
+                    "processors": "",
+                    "groups": "",
+                    "action": "MyActionPress",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}
